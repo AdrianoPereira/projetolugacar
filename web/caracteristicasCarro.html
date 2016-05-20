@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lugcar uma Maneira Diferente de Alugar Carros</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/formularios.css" rel="stylesheet" type="text/css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>    
+        <div class="bloco bkg-form">
+            <h1 class="texto-banner texto-sombra">Cadastra-se</h1>
+            <!--<h2>Uma renda extra para proprietários e fuga da burocracia para quem quer alugar um carro!</h2>-->
+            <h2 class="texto-sombra">Faça o seu cadastro, é simples e rápido!</h2>
+            <form class="formulario botoes">
+                <a href="index.html" title="Página inicial"> <img src="imagens/logo.png"/></a>
+                <span>Todos os campos devem ser preenchidos</span>
+                <label for="hatch">Hachback <img src="imagens/hach.png"></label>
+                    <input type="radio" id="hatch" name="tipo" value="hatch">
+                <label for="sedan">Sedan<img src="imagens/sedan.png"></label>
+                    <input type="radio" id="sedan" name="tipo" value="sedan">
+                <label for="picape">Picape<img src="imagens/pickup.png"></label>
+                    <input type="radio" id="picape" name="tipo" value="minivan">
+                <label for="swperua">Perua/SW <img src="imagens/perua.png"></label>
+                    <input type="radio" id="swperua" name="tipo" value="swperua">
+                <label for="suv">SUV<img src="imagens/sav.png"></label>    
+                    <input type="radio" id="suv" name="tipo" value="suv">
+                <label for="conversivel">Conversível<img src="imagens/conversivel.png"></label>
+                    <input type="radio" id="conversivel" name="tipo" value="conversivel">
+                    
+                    <input type="button" class="trans" value="Cadastrar">
+                <p class="branco">ou<br/><a href="login.html">Fazer login</a></p>
+                <!--<input type="button" class="trans cancelar" value="Limpar">-->
+            </form>
+        </div>
+    </body>
+</html>

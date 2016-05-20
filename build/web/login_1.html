@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lugcar uma Maneira Diferente de Alugar Carros</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/formularios.css" rel="stylesheet" type="text/css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>    
+        <div id="logo">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#" title="Página Inicial"><img src="imagens/logo.png"></a></li>
+                    <li><a href="#" title="Área do Propritário">sou um propritário</a></li>
+                    <li><a href="#" title="Área do Condutor">quero alugar um carro</a></li>
+                    <li><a href="#" title="Saiba um pouco de nós">quem somos</a></li>
+                </ul>
+            </nav>
+            <form id="form-topo">
+                <br/>
+                <label for="inscricao">Informe seu E-mail: </label><br/> 
+                <input type="email" id="inscricao" placeholder="usuario@exemplo.com"/>
+                <input type="button" value="Cadastrar meu E-mail"><br/>
+                <span class="obs">Também odiamos SPAM. Seu e-mail está seguro conosco.</span>
+            </form>
+        </div>
+        
+        <div class="bloco">
+            <h1 class="texto-banner">Login</h1>
+            <!--<h2>Uma renda extra para proprietários e fuga da burocracia para quem quer alugar um carro!</h2>-->
+            <h2>Faça o login para ter acesso ao seu painel de controle!</h2>
+            <form class="formulario">
+                <a href="index.html" title="Página inicial"> <img src="imagens/logo.png"/></a>
+                <span>Informe corretamente os dados a seguir</span>
+                <label for="usuario">Usuário: </label><input type="text" id="usuario" name="usuario" placeholder="Nome de Usuário">
+                <label for="senha">Senha: </label><input type="text" id="senha" name="senha" placeholder="Digite uma Senha">
+                <input type="button" class="trans" value="Entrar">
+                <p>ou<br/><a href="cadastrar.html">Fazer cadastro</a></p>
+                <!--<input type="button" class="trans cancelar" value="Limpar">-->
+            </form>
+        </div>
+        
+        <footer>
+            <a href="#"><img src="imagens/logo-reversa.png"></a><br/>
+            <ul id="info-rodape">
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div id="info">
+                E-mail: contato@lugcar.com<br/>
+                Telefone: (95) 90000-0000<br/>
+                Facebook: www.facebook.com/lugcar<br/>
+                twitter: www.twitter.com/lugcar<br/>
+            </div>
+            <p>&copy 2016 Todos os direitos reservados - Lugcar</p>
+        </footer>
+    </body>
+</html>

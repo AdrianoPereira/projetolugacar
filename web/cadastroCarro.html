@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lugcar uma Maneira Diferente de Alugar Carros</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/formularios.css" rel="stylesheet" type="text/css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>    
+        <div class="bloco bkg-form">
+            <h1 class="texto-banner texto-sombra">Cadastra-se</h1>
+            <!--<h2>Uma renda extra para proprietários e fuga da burocracia para quem quer alugar um carro!</h2>-->
+            <h2 class="texto-sombra">Faça o seu cadastro, é simples e rápido!</h2>
+            <form class="formulario">
+                <a href="index.html" title="Página inicial"> <img src="imagens/logo.png"/></a>
+                <span>Todos os campos devem ser preenchidos</span>
+                <label for="seguradora">Seguradora: </label><input type="text" id="seguradora" name="seguradora" placeholder="Seguradora caso tenha">
+                <label for="chassi">Chassi: </label><input type="text" id="chassi" name="chassi" placeholder="Chassi do Carro">
+                <label for="marca">Marca: </label><input type="text" id="marca" name="marca" placeholder="Fabricante do carro">
+                <label for="modelo">Modelo: </label><input type="text" id="modelo" name="modelo" placeholder="Modelo do Carro">
+                <label for="ano">Ano: </label><input type="text" id="ano" name="ano" placeholder="Ano de Fabricação">
+                <label for="placa">Placa: </label><input type="text" id="placa" name="placa" placeholder="Placa do Carro">
+                <label for="quilometragem">Quilometragem: </label>
+                    <select id="quilometragem" name="quilometragem">
+                        <option value="km1">0 Km - 25.000km</option>
+                        <option value="km2">25.001 Km - 50.000km</option>
+                        <option value="km3">50.001 Km - 75.000km</option>
+                        <option value="km4">75.001 Km - 100.000km</option>
+                        <option value="km5">+100.000 Km</option>
+                    </select>
+                <label for="combustivel">Combustível: </label>
+                    <select id="combustivel" name="combustivel">
+                        <option value="comb1">Flex</option>
+                        <option value="comb2">Gasolina</option>
+                        <option value="comb3">Álcool</option>
+                        <option value="comb4">Diesel</option>
+                        <option value="comb5">GNV</option>
+                        <option value="comb6">Outros</option>
+                    </select>
+                <input type="button" class="trans" value="Cadastrar">
+                <p class="branco">ou<br/><a href="login.html">Fazer login</a></p>
+                <!--<input type="button" class="trans cancelar" value="Limpar">-->
+            </form>
+        </div>
+    </body>
+</html>

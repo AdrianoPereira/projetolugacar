@@ -1,0 +1,158 @@
+/*Importações de fontes*/
+@font-face{
+    font-family: "Axis Extrabold";
+    src: url('../fontes/Axis Extrabold.otf');
+}
+@font-face{
+    font-family: "Asgalt-Regular";
+    src: url('../fontes/Asgalt-Regular.ttf');
+}
+@font-face{
+    font-family: "CocoPuff-Regular";
+    src: url('../fontes/CocoPuff-Regular.ttf');
+}
+@font-face{
+    font-family: "TitilliumWeb-Regular";
+    src: url('../fontes/TitilliumWeb-Regular.ttf');
+}
+/*Resetando margens*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    /*color: rgb(60, 148, 139);*/
+    color: rgb(49, 49, 49);
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+}
+body{
+    font-family: TitilliumWeb-Regular;
+    background: url("../imagens/background.png");
+}
+h1.texto-banner{
+   text-transform: uppercase;
+   font-size: 60px;
+}
+div#logo{
+    background: #008B8B;
+    color: #FFF ;
+    padding: 20px 0px 10px 50px;
+    /*background: #000000;*/
+}
+#form-topo{
+    margin-left: 50px;
+}
+#form-topo input{
+    width: 320px;
+    padding: 10px;
+}
+#form-topo input[type="button"]{
+    width: 200px;
+}
+div#logo span{
+    color: #000;
+    font-size: 12px;
+}
+nav ul#menu{
+    display: inline-block;
+    /*background: red;*/
+    margin-right: 50px;
+    margin-top: 0px;
+}
+nav ul#menu li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sombra{
+    box-shadow: 1px 5px 2px rgba(0,0,0,.4);
+    margin-bottom: 10px;
+}
+div.bloco{
+    text-align: center;
+    background: #00BFFF;
+    color: #FFFFFF;
+    padding: 50px 10px 50px 10px;
+}
+div.bloco.paragrafo{
+    margin: 0 auto;
+    text-align: justify;
+    padding-left: 150px; 
+    padding-right: 150px; 
+}
+div.bloco.paragrafo h1{
+    text-align: center;
+}
+form#ctt input, textarea {
+    width: 320px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form#ctt input[type="button"]{
+    width: 100px;
+}
+div.b1{
+    background: url(../imagens/banner1.jpg);
+}
+div.bloco .btn-link{
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #FFF;
+    color: #FFF;
+    transition: all linear .3s;
+}
+div.bloco .btn-link:hover{
+    background: rgba(0, 0, 0, .5);
+    border-color: #008B8B;
+    color: #008B8B;
+    transition: all linear .3s;
+}
+div.b2{
+    background: #008B8B;
+}
+div.b3{
+    background: url(../imagens/background.jpg);
+    color: #008B8B;
+}
+footer{
+    padding: 50px 150px 50px 150px;
+    background: #008B8B;
+}
+footer ul{
+    float: right;
+}
+footer ul#info-rodape  li{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer div{
+    margin: 20px 0px 20px 0px;
+}
+footer p{
+    text-align: center;
+}
+div p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+figcaption{
+    text-align: center;
+}
+div span{
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
