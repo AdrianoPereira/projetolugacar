@@ -1,0 +1,43 @@
+package dechex;
+import java.util.Scanner;
+
+public class DecHex {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        
+        String sDec;
+        int dec, aux;
+        String hex = "";
+        String decHex = "";
+        
+        dec = sc.nextInt();
+        
+        while(dec > 0){
+            aux =  dec%16;
+            decHex = Integer.toString(aux);
+           
+            if(decHex.equals("10"))
+                decHex = "A";
+            else if(decHex.equals("11"))
+                decHex = "B";
+            else if(decHex.equals("12"))
+                decHex = "C";
+            else if(decHex.equals("13"))
+                decHex = "D";
+            else if(decHex.equals("14"))
+                decHex = "E";
+            else if(decHex.equals("15"))
+                decHex = "F";
+            
+            hex += decHex;
+            dec /= 16;
+        }
+        decHex = "";
+        
+        for(int x = hex.length()-1; x>=0; x--){
+            decHex += hex.charAt(x);
+        }
+        System.out.println(decHex);
+    }
+    
+}
